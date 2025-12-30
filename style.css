@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:  "Poppins", sans-serif;
+
+}
+.navbar{
+    background-color: #fd6569;
+    padding: 10px;
+}
