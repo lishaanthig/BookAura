@@ -10,4 +10,45 @@ body{
 .navbar{
     background-color: #fd6569;
     padding: 10px;
+    color: darkblue;
 }
+.container{
+    padding: 10px;
+}
+.book-container{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+}
+.book-container h2{
+    color: skyblue;
+
+
+
+}
+.book-container button{
+    background-color: skyblue;
+    color: darkblue;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+
+}
+.add.button{
+    background-color: skyblue;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    
+}
+
