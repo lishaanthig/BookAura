@@ -1,33 +1,176 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookAura</title>
+
     <link rel="stylesheet" href="style.css">
-    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">"
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 <body>
-    <div class="navbar">
-        <h1>BookAura</h1>
-    </div>
-    <div class="container">
-        <div class="book-container">
-            <h2>The Alchemist </h2>
-            <h5>Paulo Coelho</h5>
-            <p>The Alchemist is a gentle, inspiring story about a young shepherd named Santiago who follows his dream of finding treasure. Along his journey, he learns about listening to his heart, trusting the process of life, and believing that the universe helps those who pursue their true purpose. The book makes you feel hopeful and reminds you that even small signs in life can lead to big changes.</p>
-             <button>Delete</button>
-        </div>
-        
-    
-    </div>
-    <button class="add.button" id="popup.button">+</button>
-    <script src="script.js">
 
-    </script>
-    
+<header>
+
+    <nav>
+        <h2>📚 BookAura</h2>
+
+        <ul>
+            
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        
+        </ul>
+
+
+        <button id="theme-btn">
+            🌙
+        </button>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>Find Your Next Favorite Book</h1>
+
+    <p>
+        Explore thousands of books from different categories.
+    </p>
+
+    <button class="shop-btn">
+        Browse Books
+    </button>
+
+</section>
+
+<section class="search">
+
+    <input
+    type="text"
+    id="search"
+    placeholder="Search books...">
+
+</section>
+
+<section class="books" id="book-list">
+
+<div class="book">
+
+<img src="https://i.etsystatic.com/44772189/r/il/d8940e/5642837227/il_794xN.5642837227_1oii.jpg"
+alt="Book">
+
+<h3>The Psychology Of Money</h3>
+
+<p>Morgan Housel</p>
+
+<h4>₹399</h4>
+
+<button class="cart-btn">
+Add to Cart
+</button>
+
+</div>
+
+<div class="book">
+
+<img src="https://tse2.mm.bing.net/th/id/OIP.cNnksk8486BLo4kNtdqYHgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+
+<h3>The Silent Patien</h3>
+
+<p>Alex Michaelides</p>
+
+<h4>₹499</h4>
+
+<button class="cart-btn">
+Add to Cart
+</button>
+
+</div>
+
+<div class="book">
+
+<img src="https://tse4.mm.bing.net/th/id/OIP.JKKx5yIQHwtX2Mi8kPC4NAHaIM?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+
+<h3>Rich Dad Poor Dad</h3>
+
+<p>Robert Kiyosaki</p>
+
+<h4>₹450</h4>
+
+<button class="cart-btn">
+Add to Cart
+</button>
+
+</div>
+
+<div class="book">
+
+<img src="https://images.squarespace-cdn.com/content/v1/5998a4141e5b6cc138c7e9cf/1608484664254-NG9OJLHCSWTIXUJSAFTF/IMG_4235.JPG">
+<h3>Think and Grow Rich</h3>
+
+<p>Napoleon Hill</p>
+
+<h4>₹350</h4>
+
+<button class="cart-btn">
+Add to Cart
+</button>
+
+</div>
+
+<div class="book">
+
+<img src="https://th.bing.com/th/id/OIP.B-PWi5vsvCnD3hEIqJnpPAHaHa?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3">
+
+<h3>Ikigai</h3>
+
+<p>Hector Garcia</p>
+
+<h4>₹420</h4>
+
+<button class="cart-btn">
+Add to Cart
+</button>
+
+</div>
+
+<div class="book">
+
+<img src="https://tse1.mm.bing.net/th/id/OIP.JlCUg6kdgGpAeVc6Pf7J2AHaI-?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+
+<h3>Deep Work</h3>
+
+<p>Cal Newport</p>
+
+<h4>₹520</h4>
+
+<button class="cart-btn">
+Add to Cart
+</button>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 BookAura | Designed by Lishaanthi</p>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
-
